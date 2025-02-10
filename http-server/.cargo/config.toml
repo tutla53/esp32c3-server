@@ -3,6 +3,9 @@ runner = "espflash flash --monitor"
 
 [env]
 ESP_LOG="INFO"
+DEFMT_LOG = "debug"
+SSID = "your-ssid"               # replace with your own value
+PASSWORD = "your-password"        # same
 
 [build]
 rustflags = [
